@@ -1,0 +1,18 @@
+{
+  "name": "employee_info_service",
+  "version": "1.0.0",
+  "description": "a simple employee info service for demo",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/_mocha --recursive"
+  },
+  "author": "Thoughtworks",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  }
+}
